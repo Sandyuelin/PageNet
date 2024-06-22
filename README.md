@@ -18,6 +18,27 @@ pip install -r requirements.txt
 - MTHv2: [BaiduNetDisk](https://pan.baidu.com/s/1fDU1zlynG1UpQThf2-2LKA?pwd=9c53) or [Google Drive](https://drive.google.com/drive/folders/1UfU4CA3HE-zq2AjY26_QTfKaTtk2p1jw?usp=share_link)
 
 Download the datasets and put them into the `datasets` folder following the file structure below.
+
+revised version
+```
+datasets
+├─ IC13Comp
+├─ MTHv2_test
+├─ raw
+│  └─ SCUT-HCCDoc
+│     │  hccdoc_test.json
+│     │  hccdoc_train.json
+│     └─ image
+└─ output
+   ├─ casia-hwdb
+   │  └─ checkpoints
+   ├─ scut-hccdoc
+   │  └─ checkpoints
+   └─ mthv2
+      └─ checkpoints
+```
+
+original file structure
 ```
 datasets
 ├─IC13Comp
